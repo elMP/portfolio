@@ -47,8 +47,22 @@ main {
     padding: 10px;
 }
 
+.skills {
+    padding-top: 10px;
+}
+
 .skills-title {
     font-weight: bold;
+}
+
+.skills-description {
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+.skills-list {
+    font-style: italic;
+    font-size: 16px;
 }
 
 @media (min-width: 400px) {
@@ -57,6 +71,9 @@ main {
     }
     .job {
         font-size: 14px;
+    }
+    .skills-list {
+        font-size: 20px;
     }
 }
 
@@ -67,10 +84,17 @@ main {
     .job {
         font-size: 16px;
     }
+    .skills-list {
+        font-size: 24px;
+    }
 }
 
 @media (min-width: 1080px) {
     header {
+        width: 1080px;
+        margin: auto;
+    }
+    .skills {
         width: 1080px;
         margin: auto;
     }
