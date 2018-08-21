@@ -4,7 +4,7 @@
 }
 
 body {
-    font-size: 12px;
+    font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -24,11 +24,11 @@ body {
 
 .name {
     font-family: 'Fredericka the Great', cursive;
-    font-size: 20px;
     color: rgb(7, 55, 110);
 }
 
 .job {
+    font-size: 12px;
     text-align: end;
 }
 
@@ -38,34 +38,35 @@ header img{
 
 .motivation {
     font-family: 'Faster One', cursive;
-    font-size: 20px;
     color: rgb(7, 55, 110);
     text-align: center;
     margin-top:10px;
 }
 
+main {
+    padding: 10px;
+}
+
+.skills-title {
+    font-weight: bold;
+}
+
 @media (min-width: 400px) {
     body {
+        font-size: 24px;
+    }
+    .job {
         font-size: 14px;
     }
-    .name {
-        font-size: 24px;
-    }    
-    .motivation {
-        font-size: 24px;
-    }    
 }
 
 @media (min-width: 600px) {
     body {
+        font-size: 28px;
+    }
+    .job {
         font-size: 16px;
     }
-    .name {
-        font-size: 28px;
-    }    
-    .motivation {
-        font-size: 28px;
-    } 
 }
 
 @media (min-width: 1080px) {
