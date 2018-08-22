@@ -80,7 +80,7 @@ main {
     margin-bottom: 10px;
     border: 3px dotted rgb(7, 55, 110);
     background-color: lightcyan;
-    font-size: 12px;
+    font-size: 14px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -96,6 +96,16 @@ main {
     text-align: center;
     flex-wrap: wrap;
     justify-content: center;    
+}
+
+.project-name {
+    font-size: 24px;
+    font-family: 'Fredericka the Great', cursive;
+    color: rgb(7, 55, 110);
+}
+
+.project-technology {
+    font-size: 14px;
 }
 
 .project figcaption :not(.project-link) {
